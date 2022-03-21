@@ -61,11 +61,11 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8A80AF8DA040A282E51D808B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8A80AF8DA040A282E51D808B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		90540D32FD1EFD15A7AC27F6 /* Pods-HFlogTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HFlogTest_Example.release.xcconfig"; path = "Target Support Files/Pods-HFlogTest_Example/Pods-HFlogTest_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C15D4B99B373CD250346B840 /* HFlogTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HFlogTest.podspec; path = ../HFlogTest.podspec; sourceTree = "<group>"; };
+		C15D4B99B373CD250346B840 /* HFlogTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HFlogTest.podspec; path = ../HFlogTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C6FF505298E949742CD38E5D /* Pods-HFlogTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HFlogTest_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HFlogTest_Tests/Pods-HFlogTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D97EC3B8DFACB118C0B3AA12 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D97EC3B8DFACB118C0B3AA12 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F87959C3F7F98C10484EC7C8 /* Pods_HFlogTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HFlogTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				C6FF505298E949742CD38E5D /* Pods-HFlogTest_Tests.debug.xcconfig */,
 				12487BB6E0C9977F4334A46E /* Pods-HFlogTest_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

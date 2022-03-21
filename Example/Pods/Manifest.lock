@@ -1,0 +1,16 @@
+PODS:
+  - HFlogTest (0.1.0)
+
+DEPENDENCIES:
+  - HFlogTest (from `../`)
+
+EXTERNAL SOURCES:
+  HFlogTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HFlogTest: 7a9c40312770892b6b425d3562b3b1951cb7a880
+
+PODFILE CHECKSUM: df5747294687fd6cc6bb027971e31de9c0aad2ea
+
+COCOAPODS: 1.11.2
